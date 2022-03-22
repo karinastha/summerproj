@@ -1,0 +1,25 @@
+/* phone ma kasto dhekcha */
+body{
+    background-color: lavenderblush;
+}
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+/* Home section */
+#home{
+    height:280px;
+    
+}
+/* Services Section */
+#services{
+    flex-direction: column;
+}
+
+/* Clients Section */
+#clients{
+    overflow: hidden;
+}
+/* Contact us section */
+
+/* Footer */

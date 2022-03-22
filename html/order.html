@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="C:\Users\DELL\Desktop\Summerproject\css\order.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav id="navbar">
+        <div id="logo">
+            <img src="C:\Users\DELL\Desktop\Summerproject\bakeryimg\bakershub.png" alt="Bakeaway.com">
+        </div>
+        <ul>
+            <li class="item"><a href="#home"> Home </a></li>
+            <li class="item"><a href="#services-container"> Our Products </a></li>
+            <li class="item"><a href="#client-section"> About Us</a></li>
+            <li class="item"><a href="#contact"> Contact Us </a></li>
+        </ul>
+        <!-- <button class="login-btn"> Login </button> -->
+    </nav>
+    <section id="order">
+        <div class="box">
+            <h1 class="order-now">Order Now</h1>
+            <form action="">
+                 <label id="item">Items:</label> <br />
+                 <select name="item" id="one">
+                    <optgroup label="Donuts">
+                        <option value="volvo">Red Velvet</option>
+                         <option value="saab">Chocolate Gazed</option>
+                         <option value="saab">Rosemary Donut</option>
+                    </optgroup>
+                    <optgroup label="Cakes">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                    <optgroup label="German Cars">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                    <optgroup label="German Cars">
+                         <option value="mercedes">Mercedes</option>
+                         <option value="audi">Audi</option>
+                   </optgroup>
+                   <optgroup label="German Cars">
+                        <option value="mercedes">Mercedes</option>
+                        <option value="audi">Audi</option>
+                    </optgroup>
+                </select><br><br>
+                 <div class="quantity">
+                     <label for="name"> Quantity </label>
+                     <input type="text" name="name" id="quan" placeholder="1"> <br/>
+                 </div>
+                <div class="type">
+                     <label for="name"> Type(for cake only) </label><br/>
+                         <input type="radio" id="two" name="type" value="HTML">
+                             <label for="egg">Egg</label>
+                         <input type="radio" id="three" name="type" value="CSS">
+                              <label for="eggless">Eggless</label><br>
+                </div>
+                <div class="shape">
+                    <label for="name"> Shape (for cake only) </label><br/>
+                    <input type="checkbox" id="cake1" name="cake1" value="Rectangle">
+                    <label for="cake1"> Rectangle</label>
+                    <input type="checkbox" id="cake2" name="cake2" value="Circle">
+                    <label for="cake2"> Circle </label><br>
+               </div>
+               <button data-modal-target="#modal" class="order-btn" > Order  </button>
+               <div class="modal" id="modal">
+                   <div class="modalheader">
+                        <div class="title">Your Order has been placed!</div>
+                        <button data-close-button class="close-button">&times;</button>
+
+                   </div>
+                   <div class="modal-body">
+                        THANKYOU FOR ORDERING
+                   </div>
+               </div>
+               <div id="overlay"></div>
+            </form>
+        </div>
+        <!-- <div class="dropdown">
+                <button class="dropbtn">Dropdown</button><br/>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a><br/>
+                </div>
+            </div> -->
+    </section>
+    <footer>
+        <div class="center">
+            Copyright &copy;www.onlineBakery.com. All rights reserved!
+        </div>
+    </footer>
+
+     <script src="C:\xampprealfile\htdocs\Summerproject\popup.js"></script> 
+</body>
+</html>
